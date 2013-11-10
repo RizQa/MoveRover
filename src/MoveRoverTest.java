@@ -13,17 +13,18 @@ public class MoveRoverTest extends junit.framework.TestCase {
 		switch (e.getKeyCode())
 		{
 		case KeyEvent.VK_UP:			//North
-			move.setLocation ((int)move.getLocation().getX(), (int)move.getLocation().getY()+30);	
+			
+			//move.setLocation ((int)move.getLocation().getX(), (int)move.getLocation().getY()+30);	
 			break;
 			
 		case KeyEvent.VK_DOWN:			//South
-			move.setLocation ((int)move.getLocation().getX(), (int)move.getLocation().getY()-30);
+			//move.setLocation ((int)move.getLocation().getX(), (int)move.getLocation().getY()-30);
 			break;
 		case KeyEvent.VK_LEFT:			//West
-			move.setLocation ((int)move.getLocation().getX()-30, (int)move.getLocation().getY());
+			//move.setLocation ((int)move.getLocation().getX()-30, (int)move.getLocation().getY());
 			break;
 		case KeyEvent.VK_RIGHT: 		//East
-			move.setLocation ((int)move.getLocation().getX()+30, (int)move.getLocation().getY());
+			//move.setLocation ((int)move.getLocation().getX()+30, (int)move.getLocation().getY());
 			break;
 		}
 	
