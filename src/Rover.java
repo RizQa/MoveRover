@@ -9,24 +9,24 @@ public class Rover extends Map
 	char[]Commands = new char []{'N','S','E','W'};
 	double x;
 	double y;
-	void Location(double x, double y)
+	void Location(int x, int y)
 
 	{
 		return;
 	}
-	public void setLocation (double x, double y) 
+	public void setLocation (int x, int y) 
 	{
 		return;
 	}
-	public void getLocation (double x, double y)
+	public void getLocation (int x, int y)
 	{
 	return; 
 	}
-	public void moveRover()
-	{
+	/*public void moveRover()
+	{ 
 			if(Command == 'N')
 			{
-				setLocation ((double).getLocation().getx(), (double)move.getLocation().gety()+1);	
+				//setLocation ((double).getLocation().getx(), (double)move.getLocation().gety()+1);	
 			}
 			else if(Command == 'S')
 			{
@@ -42,9 +42,9 @@ public class Rover extends Map
 	{
 		return getDirection();
 	}
-	//public void CommandObject (char c, int i) {
-		//CommandObject ObjectToNorth = new CommandObject('N',0);
-		//CommandObject ObjectToSouth = new CommandObject('S',0);
-		//CommandObject ObjectToEast = new CommandObject('E',0);
-		//CommandObject ObjectToWest = new CommandObject('W',0);		
+	public void CommandObject (char c, int i) {
+		CommandObject ObjectToNorth = new CommandObject('N',0);
+		CommandObject ObjectToSouth = new CommandObject('S',0);
+		CommandObject ObjectToEast = new CommandObject('E',0);
+		CommandObject ObjectToWest = new CommandObject('W',0);*/
 }
