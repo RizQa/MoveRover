@@ -1,7 +1,4 @@
 package unit.framework;
-import java.util.*;
-import java.awt.event.KeyEvent;
-import java.io.IOException;
 
 public class Location
 {
@@ -14,14 +11,25 @@ public class Location
 		this.x = x;
 		this.y = y;
 	}
-	
-	Location rover = new Location (x,y);
-	//Location forward = new Location (x, y+1);
-	//Location backward = new Location (x, y-1);
-	//Location left = new Location(x-1, y);
-	//Location right = new Location (x+1, y);
-	
-	public static void move(KeyEvent e)
+	public static int getX()
+	{
+		return x;
+	}
+	public static int getY()
+
+	{
+		return y;
+	}
+	public void setX (int i)
+	{
+		x= i;
+	}
+	public void setY (int i)
+	{
+		y= i;
+	}	
+	/*public static void move(KeyEvent e)
+
 	{
 		switch(e.getKeyCode())
 		{
@@ -41,5 +49,9 @@ public class Location
 			Location right = new Location (x+1, y);
 			break;
 		}
+	}*/
+	public static void setLocation(int x, int y)
+	{
+		Location rover = new Location (x,y);
 	}
 }

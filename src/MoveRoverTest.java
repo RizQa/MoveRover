@@ -1,14 +1,12 @@
 import java.awt.event.KeyEvent;
-import org.junit.Test;
 import unit.framework.Location;
 
 
-public class MoveRoverTest extends junit.framework.TestCase {
-
+public class MoveRoverTest extends junit.framework.TestCase 
+{
 	public void test () 
 	{
 		Rover MarsRover = new Rover();
-		Map MarsMap = new Map();
 	}
 	public void KeyPressed (KeyEvent e)
 {
@@ -32,8 +30,8 @@ public class MoveRoverTest extends junit.framework.TestCase {
 			Location right = new Location (x+1, y);
 			break;
 		}
+}
 	
-	}
 }
 
 
