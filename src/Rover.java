@@ -3,7 +3,6 @@ import java.awt.event.KeyEvent;
 
 public class Rover
 {
-	public String name;
 	public void Location (int x, int y)
 	{
 		x= Location.getX();
